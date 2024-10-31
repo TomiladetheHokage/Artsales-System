@@ -6,3 +6,7 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+
+C:\Users\OWNER\Downloads\Artsales-System\Backend\src\main\resources\secret.properties
+C:\Users\OWNER\Downloads\Artsales-System\Backend\src\main\java\com\Art\Data\models\Test.java
+secret.properties

@@ -47,7 +47,7 @@ public class UserServiceImplTest {
     @Test
     public void testUserCanCreatePost(){
         PostRequest post = new PostRequest();
-        Path path = Paths.get("C:\\Users\\OWNER\\Downloads\\ArtSalesSystem\\src\\main\\resources\\static\\Screenshot 2024-08-05 120706.png");
+        Path path = Paths.get("C:\\Users\\OWNER\\Downloads\\Artsales-System\\Backend\\src\\main\\resources\\static\\Screenshot 2024-10-14 151314.png");
 
         try(InputStream inputStream = Files.newInputStream(path)){
             MultipartFile file = new MockMultipartFile("file", inputStream);
@@ -102,7 +102,7 @@ public class UserServiceImplTest {
     @Test
     public void testUserCanFindArtworkByTitle() throws IOException, titleAlreadyExistException, titleNotFoundException {
         PostRequest post = new PostRequest();
-        Path path = Paths.get("C:\\Users\\OWNER\\Downloads\\ArtSalesSystem\\src\\main\\resources\\static\\Screenshot 2024-08-05 120706.png");
+        Path path = Paths.get("C:\\Users\\OWNER\\Downloads\\Artsales-System\\Backend\\src\\main\\resources\\static\\Screenshot 2024-10-14 151314.png");
         InputStream inputStream = Files.newInputStream(path);
         MultipartFile file = new MockMultipartFile("file", inputStream);
 
@@ -227,7 +227,7 @@ public class UserServiceImplTest {
         user.setEmail("tomi@gmail.co");
         userService.signUp(user);
 
-        Path path = Paths.get("C:\\Users\\OWNER\\Downloads\\ArtSalesSystem\\src\\main\\resources\\static\\Screenshot 2024-08-05 120706.png");
+        Path path = Paths.get("C:\\Users\\OWNER\\Downloads\\Artsales-System\\Backend\\src\\main\\resources\\static\\Screenshot 2024-10-14 151314.png");
         InputStream inputStream = Files.newInputStream(path);
         MultipartFile file = new MockMultipartFile("file", inputStream);
 
@@ -257,7 +257,7 @@ public class UserServiceImplTest {
         user.setEmail("tomi@gmail.com");
         userService.signUp(user);
 
-        Path path = Paths.get("C:\\Users\\OWNER\\Downloads\\ArtSalesSystem\\src\\main\\resources\\static\\Screenshot 2024-08-05 120706.png");
+        Path path = Paths.get("C:\\Users\\OWNER\\Downloads\\Artsales-System\\Backend\\src\\main\\resources\\static\\Screenshot 2024-10-14 151314.png");
         InputStream inputStream = Files.newInputStream(path);
         MultipartFile file = new MockMultipartFile("file", inputStream);
 
